@@ -4,20 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "talPYot"
-version = "0.1.0"  
+version = "0.1.1"  
 description = "Provides davening direction to the Kosel"
 authors = [{name = "Dror Maor", email = "dror.m.maor@gmail.com"}]
-license = {file = "LICENSE"}  
+license = {file = "LICENSE"}
 readme = "README.md"
-classifiers = [  # See https://pypi.org/classifiers/
+classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",  
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-keywords = ["davening", "Kosel", "Kotel", "Yerushalayim", "Jerusalem"]  # Relevant keywords
-packages = ["talPYot"]  # List your package directories
-install_requires = [  
-    "geopy", 
+keywords = ["davening", "Kosel", "Kotel", "Yerushalayim", "Jerusalem"]
+dependencies = [  # Use 'dependencies' instead of 'install_requires'
+    "geopy"
 ]
 
 [project.urls]
@@ -25,4 +24,7 @@ install_requires = [
 "Bug Tracker" = "https://github.com/DrorMaor/talPYot/issues"
 
 [tool.setuptools]
-# Options for setuptools if needed
+#packages = ["talPYot"]  # Package declaration goes here!
+
+[project.scripts]
+talPYot = "talPYot.main:main"  # talPYot is the command, talPYot.main:main is the function
