@@ -22,7 +22,7 @@ def DrawCompass(degrees, radius=10):
         compass += "\n"
 
     radians = math.radians(90 - degrees) 
-    arrow_x = int(round(radius * 0.75 * math.cos(radians))) 
+    arrow_x = int(round(radius * 0.75 * math.cos(radians)))
     arrow_y = int(round(radius * 0.75 * math.sin(radians)))
 
     # Draw the arrow
