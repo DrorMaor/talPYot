@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "talPYot"
-version = "0.1.1"  
+version = "0.1.2"  
 description = "Provides davening direction to the Kosel"
 authors = [{name = "Dror Maor", email = "dror.m.maor@gmail.com"}]
 license = {file = "LICENSE"}

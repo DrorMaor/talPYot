@@ -1,6 +1,6 @@
 # Project Title
 
-Davening angle to Kosel from any named place on Earth.
+Davening angle to the Kosel from any named place on Earth.
 
 ## Description
 
@@ -8,8 +8,6 @@ talPYot is a Python package that provides the davening angle to the Kosel, from 
 The name is derived from the word Talpiot, which the Gemora Berachos 30a references.
 The Gemora says that wherever you are davening, you must face in the direction of the Kosel. Then the Gemora quotes the source to this:
 מאי קראה {שיר השירים ד-ד} כמגדל דויד צוארך בנוי לתלפיות, תל שכל פיות פונים בו
-
-## Getting Started
 
 ### Dependencies
 
@@ -32,32 +30,6 @@ The results will be in a JSON format, like this:
     "DirectionCompass": "       ooooooo       \n     oo       oo     \n    o           o    \n   o             o   \n  o               o  \n o                 o \n o                 o \no                   o\no                   o\no                   o\no         ..        o\no           ..      o\no             ..    o\no               .   o\n o                 o \n o                 o \n  o               o  \n   o             o   \n    o           o    \n     oo       oo     \n       ooooooo       "
 }
 
-The final element, DirectionCompass, will be printed afterwards in its full string format, with line breaks.
-In order to use the results, just copy/paste it from the elemnt, and your text editor will display the line breaks
-
-       ooooooo       
-     oo       oo     
-    o           o    
-   o             o   
-  o               o  
- o                 o 
- o                 o 
-o                   o
-o                   o
-o                   o
-o         ..        o
-o           ..      o
-o             ..    o
-o               .   o
- o                 o 
- o                 o 
-  o               o  
-   o             o   
-    o           o    
-     oo       oo     
-       ooooooo       
-
-This is the davening direction from London
 
 ## Authors
 

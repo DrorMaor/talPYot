@@ -1,9 +1,9 @@
 LICENSE
 README.md
 pyproject.toml
-setup.cfg
+setup.py
 talPYot/__init__.py
-talPYot/main.py
+talPYot/talPYot.py
 talPYot.egg-info/PKG-INFO
 talPYot.egg-info/SOURCES.txt
 talPYot.egg-info/dependency_links.txt
