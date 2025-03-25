@@ -8,7 +8,7 @@ def DaveningAngle(coords):
     omg = math.atan2(dLng, dLat)
     return (math.degrees(omg))
 
-if __name__ == "__main__":
+def main():
     from geopy.geocoders import Nominatim
     geolocator = Nominatim(user_agent='myapplication')
     locationString = ""
@@ -23,3 +23,6 @@ if __name__ == "__main__":
         lon = float(location.raw["lon"])
         print (location.raw["display_name"])
         print (DaveningAngle([lat, lon]))
+        
+if __name__ == "__main__":
+    main()
